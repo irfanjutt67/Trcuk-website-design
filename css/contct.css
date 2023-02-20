@@ -1,0 +1,261 @@
+@font-face{
+    font-family: Poppins;
+    src: url('../Poppins_2/Poppins-Medium.ttf')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F8F8FF;
+}
+                                  /* Back Img */
+ 
+.background-image01{
+    background-image: linear-gradient(rgba(14, 13, 13, 0.8),rgba(14, 13, 13, 0.8)), url(../image/cargo01.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.empty2{
+    width: 100%;
+    height: 150px;
+}
+                                  /* Banner Text Start */
+
+.banner-text02{
+    width: 90%;
+    font-size: 1.5rem;
+    color: white;
+    margin: auto;
+}
+.banner-text02 p{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-border02{
+    width: 10%;
+    border-bottom: 4px solid #FF5F1D;
+}
+.banner-text02 h4{
+    font-weight: normal;
+    margin-top: 10px;
+}
+                                      /* Banner Text END */
+
+                                       /* Conatc Form Start */
+.contact-form{
+    width: 100%;
+}
+.contact-form-grid{
+    width: 95%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 2em;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+                                      /* Keep in Touch Start */
+.contact-input p{
+    color: #FF5F1D;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.contact-input-border{
+    width: 20%;
+    border-bottom: 4px solid #FF5F1D;
+}
+.contact-input h2{
+    color: #000066;
+    font-size: 1.3rem;
+    margin-top: 15px;
+    font-weight: normal;
+}
+.contact-box-grid{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.contact-box{
+    width: 100%;
+    margin-top: 2em;
+}
+.contact-box01{
+    width: 100%;
+    float: left;
+}
+.contact-box02{
+    width: 100%;
+    float: left;
+}
+.input01[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid white;
+}
+.user-comment{
+    height: 200px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px 20px;
+    outline: none;
+    border: 1px solid white;
+}
+.btn3{
+    height: 40px;
+    width: 30%;
+    margin-top: 20px;
+    color: white;
+    background-color: #FF5F1D;
+    border: 1px solid #FF5F1D;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px red;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #000066;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+                                  /* Keep in Touch END */
+
+                                    /* Our office Start */
+.office p{
+    color: #FF5F1D;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.office-border{
+    width: 20%;
+    border-bottom: 4px solid #FF5F1D;
+}
+.office h3{
+    color: #000066;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.office-data{
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 9%;
+}
+.office-data a{
+    text-decoration: none;
+    color: #FF5F1D;
+    margin-left: 10px;
+}
+.office-data a:hover{
+    color: #000066;
+}
+.office-data p{
+    color: black;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.office-data-phone{
+    margin-top: 1.5em;
+}
+.office-data-phone p{
+    margin-top: 15px;
+}
+.office-data-phone h5{
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+                                /* Keep in Touch END */
+
+                                  /* Contact Form END */
+
+
+                          /* Responsive Start */
+
+                            /* 968 Responsive Start */
+@media (max-width: 968px) {
+    .banner-text02 p{
+        font-size: 3rem;
+    }
+    .contact-form-grid{
+        grid-template-columns: auto;
+        width: 100%;
+        margin: auto;
+        margin-top: 3em;
+        margin-bottom: 4em;
+    }
+    .contact-input p{
+        font-size: 3rem;
+    }
+    .contact-input{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .office{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .office p{
+        font-size: 3rem;
+    }
+    .office-data-phone p{
+        font-size: 1rem;
+    }
+}
+                               /* 700 Responsive Start */
+@media (max-width: 700px) {
+    .banner-text02 p{
+        font-size: 2.5rem;
+    }
+    .empty2{
+        height: 130px;
+    }
+    .contact-input p{
+        font-size: 2.5rem;
+    }
+    .office p{
+        font-size: 2.5rem;
+    }
+    .office-data-phone p{
+        font-size: 1rem;
+    }
+}
+                               /* 480 Responsive Start */
+@media (max-width: 480px) {
+    .empty2{
+        height: 80px;
+    }
+    .contact-box-grid{
+        grid-template-columns: auto;
+        width: 100%;
+    }
+    .banner-text02 p{
+        font-size: 2.2rem;
+    }
+    .contact-input p{
+        font-size: 2.2rem;
+    }
+    .office p{
+        font-size: 2.2rem;
+    }
+    .office-data-phone p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,295 @@
+@font-face{
+    font-family: Poppins;
+    src: url('../Poppins_2/Poppins-Medium.ttf')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+  min-height: 100vh;
+  background-color: white;
+}
+
+                                 /* Back Img */
+.background-image01{
+    background-image: linear-gradient(rgba(0, 17, 71, 0.8),rgba(0, 17, 71, 0.8)), url(../image/truck.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.empty1{
+    width: 100%;
+    height: 180px;
+}
+.banner-text02{
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+}
+.banner-text02 p{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-border02{
+    width: 10%;
+    border-bottom: 4px solid #FF5F1D;
+}
+                                    
+                             /* Become a Trucker start */
+.trucker01{
+    width: 100%;
+    background-color: #F8F8FF;
+}
+.trucker01-heading{
+    width: 100%;
+    height: 230px;
+    text-align: center;
+}
+.trucker01-heading p{
+    color: #FF5F1D;
+    font-size: 3rem;
+    font-weight: bold;
+    padding-top: 1.3em;
+}
+.trucker01-heading span{
+    color: #FF5F1D;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.become-trucker-grid{
+    display: inline-grid;
+    grid-template-rows: 570px;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    gap: 20px;
+    margin-left: 4em;
+    margin-bottom: 4em;
+}
+                          /* Become a Trucker Form */
+
+.input01[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    margin-right: 2em;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    outline: none;
+    display: block;
+    z-index: 100;
+}
+.btn2{
+    height: 40px;
+    width: 20%;
+    margin-top: 20px;
+    background-color: #FF5F1D;
+    cursor: pointer;
+    border: 1px solid #FF5F1D;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 5px 5px 20px red;
+}
+.btn2:hover{
+    background-color: #000066;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+.trucker-video video{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+                                 /* Become a Trucker END */
+
+                                         /* About Trucker app start */
+.become-trucker-app{
+    width: 100%;
+    background-color: teal;
+}
+.become-trucker-app-grid{
+    display: inline-grid;
+    width: 80%;
+    gap: 40px;
+    float: right;
+    grid-template-columns: 250px 250px 1fr;
+    margin-bottom: 6em;
+}
+.download-app-icon{
+    width: 30%;
+    float: left;
+    margin-top: 4.5em;
+}
+.download-app-icon img{
+    height: 60px;
+    width: 60px;
+}
+.download-app-icon-data{
+    width: 70%;
+    float: left;
+    color: #000066;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 4em;
+}
+.download-app-icon-data p{
+    color: black;
+    font-size: .9rem;
+    padding: 10px;
+    font-weight: normal;
+}
+.download-app-image img{
+    width: 100%;
+    height: 350px;
+    margin-top: 4em;
+}
+                                     /* About Trucker app END */
+
+                                       /* Inner Services start */
+
+.services-inner01-grid{
+    width: 90%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 4em;
+}
+.services-inner01-image img{
+    width: 100%;
+    height: 570px;
+}
+.services-inner01-heading{
+    color: #FF5F1D;
+    padding: 20px;
+    font-size: 3em;
+    font-weight: bold;
+}
+.services-inner01-border{
+    width: 30%;
+    border-bottom: 4px solid #FF5F1D; 
+}
+.services-inner01-heading p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.services-inner01-data{
+    padding: 20px;
+}
+.services-inner01-data p{
+    padding: 10px;
+    margin-left: -10px;
+}
+.services-inner02-grid{
+    width: 90%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 4em;
+    margin-bottom: 5em;
+}
+
+
+                      /* Inner Services END */
+
+
+                         /* Responsive Start */
+
+
+                              /* 968 Responsive Start */
+@media (max-width: 968px) {
+    .banner-text02 p{
+        font-size: 3rem;
+    }
+    .become-trucker-grid{
+        width: 100%;
+        grid-template-columns: auto;
+        margin-left: 0px;
+    }
+    .trucker01-heading p{
+        font-size: 3rem;
+    }
+    .trucker-form{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .become-trucker-app-grid{
+        grid-template-columns: auto;
+    }
+    .services-inner01-heading{
+        font-size: 3rem;
+    }
+    .services-inner01-grid{
+        grid-template-columns: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .services-inner02-grid{
+        grid-template-columns: auto;
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+                         
+                                    /* 700 Responsive Start */
+
+ @media (max-width: 700px) {
+    .banner-text02 p{
+        font-size: 2.5rem;
+    }
+    .empty1{
+        height: 220px;
+    }
+    .trucker01-heading p{
+        font-size: 2.5rem;
+    }
+    .services-inner01-heading{
+        font-size: 2.5rem;
+    }
+ }
+                      /* 500 Responsive Start */
+@media (max-width: 500px) {
+    .trucker01-heading{
+      height: 270px;
+    }
+    .btn2{
+        width: 30%;
+    }
+}
+                        /* 480 Responsive Start */
+
+ @media (max-width: 480px) {
+    .banner-text02 p{
+        font-size: 2.2rem;
+    }
+    .trucker01-heading p{
+        font-size: 2.2rem;
+    }
+    .services-inner01-heading{
+        font-size: 2.2rem;
+    }
+ }
+                        /* 425 Responsive Start */
+@media (max-width: 425px) {
+.trucker01-heading{
+      height: 330px;
+    }
+}
+                       /* 320 Responsive Start */
+@media (max-width: 320px) {
+.trucker01-heading{
+      height: 360px;
+    }
+}

@@ -1,0 +1,398 @@
+@font-face{
+    font-family: Poppins;
+    src: url('../Poppins_2/Poppins-Medium.ttf')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+  min-height: 100vh;
+}
+                               /* Back Img*/
+
+.background-image01{
+    background-image: linear-gradient(rgba(14, 13, 13, 0.8),rgba(14, 13, 13, 0.8)), url(../image/cargo01.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.empty3{
+    width: 100%;
+    height: 180px;
+}
+.banner-text02{
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+}
+.banner-text02 p{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-border02{
+    width: 10%;
+    border-bottom: 4px solid #FF5F1D;
+}
+                                  
+                                    /* About Us start */
+
+.abouts01{
+    width: 100%;
+}
+.abouts01-heading{
+    width: 95%;
+    height: 140px;
+    margin: auto;
+}
+.abouts01-heading p{
+    color: #FF5F1D;
+    padding-top: .5em;
+    font-size: 4em;
+    font-weight: bold;
+}
+.abouts01-grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    margin-left: 2em;
+    margin-bottom: 4em;
+}
+.abouts01-data{
+    width: 100%;
+}
+.abouts02-data{
+    width: 100%;
+}
+.abouts01-data p{
+    font-size: 1rem;
+}
+.abouts01-data h3{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.border-bottom{
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 2em;
+}
+.about-social-icons{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+.about-social-icons a{
+    border: 1px solid #FF5F1D;
+    height: 28px;
+    width: 30px;
+    float: left;
+    margin-left: 10px;
+    color: white;
+    background-color: #FF5F1D;
+    box-shadow: 5px 5px 20px red;
+    text-align: center;
+}
+.about-social-icons a:hover{
+    background-color: #000066;
+    transition: 0.4s ease-in-out;
+}
+.abouts02-data img{
+    width: 100%;
+}
+                                         /* About Us END */
+
+                                         /* Professional Staff start */
+.professional-team{
+    width: 100%;
+}
+.professional-team-grid{
+    width: 95%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 2em;
+    margin-bottom: 4em;
+}
+.professional-heading{
+    color: #FF5F1D;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.professional-heading p{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.professional-team-part{
+    width: 100%;
+}
+.professional-team-part-grid{
+    width: 100%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 4em;
+}
+.professional-part01 .far{
+    font-size: 1.5rem;
+    margin-top: 7px;
+    margin-left: 5px;
+    color: #FF5F1D;
+}
+.professional-part01{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+.professional-part01 p{
+    width: 85%;
+    float: right;
+    font-size: 1.5rem;
+}
+                               /* Professional Staff END */
+
+                                /* Hiring Form start */
+
+.hiring{
+    width: 100%;
+    background-color: red;
+    height: 280px;
+    text-align: center;
+}
+.hiring p{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    transform: translate(0%,100%);
+}
+.buttons{
+    margin-top: 6em;
+}
+.button4{
+    height: 40px;
+    width: 20%;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px red;
+}
+.button4:hover{
+    background-color: #000066;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+                                    /* Hiring Form END */
+
+                                    /* Job listening Form start */
+.listening{
+    width: 100%;
+}
+.listening-heading{
+    color: #FF5F1D;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2em;
+    font-size: 2rem;
+}
+.listening-heading p{
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+.listening-forem{
+    width: 90%;
+    height: 205px;
+    margin: auto;
+    background-color: rgb(223, 199, 199);
+    margin-bottom: 6em;
+}
+.listening-forem01{
+    width: 46%;
+    height: 75px;
+    float: left;
+}
+.listening-forem02{
+    width: 46%;
+    height: 75px;
+    float: right;
+}
+.input01[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid white;
+    margin-right: 2em;
+    margin-top: 15px;
+}
+.any-options{
+    width: 95%;
+    margin: auto;
+}
+select {
+    width:100%;
+    padding: 16px 20px;
+    outline: none;
+    display: block;
+    z-index: 100;
+    margin: auto;
+    border: 1px solid white;
+    padding-left: 10px;
+}
+.buton5{
+    width: 100%;
+    text-align: center;
+}
+.button6{
+    height: 40px;
+    width: 20%;
+    color: white;
+    background-color: #FF5F1D;
+    cursor: pointer;
+    border: 1px solid #FF5F1D;
+    box-shadow: 5px 5px 20px red;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.button6:hover{
+    background-color: #000066;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+                                /* Job listening Form END */
+
+
+                          /* Responsive Start */ 
+
+                            /* 968 Responsive Start */
+@media (max-width: 968px) {
+    .banner-text02 p{
+        font-size: 3rem;
+    }
+    .abouts01-grid{
+        width: 100%;
+        grid-template-columns: auto;
+        margin: 0px auto;  
+        margin-bottom: 4em;
+    }
+    .abouts01-heading p{
+        font-size: 3rem;
+    }
+    .abouts01-data{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .abouts02-data{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .professional-team-grid{
+        width: 100%;
+        grid-template-columns: auto;
+        margin: 0px auto;  
+        margin-bottom: 4em;;
+    }
+    .professional-heading{
+        width: 95%;
+        margin: 0px auto;
+    }
+    .professional-image{
+        width: 95%;
+        margin: 0px auto;
+        margin-top: 10px;
+    }
+    .professional-team-part-grid{
+        width: 100%;
+        grid-template-columns: auto;
+    }
+    .professional-part01{
+        width: 95%;
+        margin-top: 10px;
+        margin: 0px auto;
+    }
+}
+                          /* 706 Responsive Start */
+@media (max-width: 706px) {
+    .hiring p{
+        transform: translate(0%,30%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+                            /* 700 Responsive Start */
+ @media (max-width: 700px) {
+   .empty3{
+    height: 220px;
+   }
+   .banner-text02 p{
+    font-size: 2.5rem;
+    }
+    .abouts01-heading{
+        font-size: 2.5rem;
+    }
+}
+                             /* 533 Responsive Start */
+@media (max-width: 533px) {
+    .listening-forem{
+        margin-top: 20px;
+    }
+    .button4{
+        width: 40%;
+    }
+    .button6{
+        width: 40%;
+    }
+}
+                          /* 508 Responsive Start */
+@media (max-width: 508px) {
+    .hiring p{
+        transform: translate(0%,30%);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+                            /* 480 Responsive Start */
+ 
+@media (max-width: 480px) {
+    .banner-text02 p{
+        font-size: 2.2rem;
+    }
+    .abouts01-heading p{
+        font-size: 2.2rem;
+    }
+    .professional-heading{
+        font-size: 2.2rem;
+    }
+    .hiring p{
+       font-size: 2.2rem; 
+    }
+    .listening-heading{
+        font-size: 2.2rem;
+    }
+}
+                      /* 380 Responsive Start */
+@media (max-width: 360px) {
+    .hiring{
+        height: 350px;
+    }
+}
+                        /* 304 Responsive Start */
+@media (max-width: 304px) {
+    .listening-forem{
+        margin-top: 3em;
+    }
+}
+             

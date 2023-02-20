@@ -1,0 +1,130 @@
+.footer{
+    width: 100%;
+    background-color: #FF5F1D;
+    color: white;
+}
+.footer-grid{
+  width: 96%;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-left: 1.5em;
+  padding-top: 4em;
+  margin-bottom: 4em;
+}
+                                /* About US Start */ 
+
+.about-us{
+  margin-right: 10px;
+}
+.about-us-heading img{
+  height: 70px;
+  width: 100px;
+}
+.about-us-heading p{
+  margin-top: 18px;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+.contatc-infos{
+  background-color: yellow;
+  width: 100%;
+  margin-top: 1.7em;
+}
+.contatc-infos .fas{
+  width: 10%;
+  color: #000066;
+  margin-top: 1.7em;
+  float: left;
+}
+.contatc-infos p{
+  width: 90%;
+  float: left;
+  margin-top: 20px;
+}
+                             /* About us END */ 
+
+                               /* Quick Start */ 
+
+.quick-links{
+  margin-right: 10px;
+}
+.quicks-link-heading{
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 20px;
+} 
+.quicklinks-tag{
+  margin-top: 2.2em;
+}
+.quicklinks-tag a{
+  text-decoration: none;
+  margin-left: 2em;
+  line-height: 2.5em;
+  color: white;
+}
+.quicklinks-tag a:hover{
+  color: #000066;
+  margin-left: 2.5em;
+  transition: 0.4s ease;
+}
+hr{
+  width: 80%;
+  margin-left: 2em;
+}
+                                /* Quick Links END */
+
+                                /* Email receive Start */ 
+
+.receiving-mail1{
+margin-top: 30%;
+}
+.search-bar11{
+height: 40px;
+width: 70%;
+padding: 10px;
+outline: none;
+border: 1px solid #000066;
+}
+.submit-search011{
+width: 40px;
+height: 39px;
+background-color: #000066;
+border:  1px solid #000066;
+cursor: pointer;
+margin-left: -4px;
+}
+.submit-search011 .fas{
+  padding: 5px;
+outline: none;
+color: white;
+}
+.submit-search011 .fas:hover{
+color: #FF5F1D;
+}
+                            /* Email receive Start */ 
+
+
+                          /* Responsive Start */
+
+                           /* 768 Responsive Start */
+
+@media (max-width: 768px) {
+  .footer-grid{
+    grid-template-columns: 1fr 1fr;
+    margin-left: .5em;
+  }
+}
+                            /* 500 Responsive Start */
+@media (max-width: 500px) {
+  .footer-grid{
+    grid-template-columns: auto;
+  }
+  .quick-links{
+    margin-left: -30px;
+  }
+  .receiving-mail1{
+    margin-top: 20%;
+    }
+}

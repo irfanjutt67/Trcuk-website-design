@@ -1,0 +1,343 @@
+@font-face{
+    font-family: Poppins;
+    src: url('../Poppins_2/Poppins-Medium.ttf')
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body{
+  min-height: 100vh;
+  background-color: #F8F8FF;
+}
+
+                                /* Back Image Start */
+.background-image01{
+    background-image: url(../image/truck.jpg);
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.empty{
+    width: 100%;
+    height: 180px;
+}
+.banner-text01{
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+    color: white;
+}
+.banner-text01 p{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.banner-border{
+    width: 10%;
+    border-bottom: 4px solid #FF5F1D;
+}
+
+                                      /* Our Services Start */
+.services01{
+    width: 100%;
+}
+.services01-heading{
+    width: 100%;
+    height: 180px;
+    color: #FF5F1D;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.3em;
+}
+.services01-heading p{
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.services01-heading-grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    text-align: center;
+    margin-left: 4em;
+    margin-bottom: 4em;
+}
+.services01-data{
+    color: #000066;
+    font-size: 1.5rem;
+    border-right: 1px solid #FF5F1D;
+}
+.services01-data p{
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.services01-data a{
+    margin-top: 10px;
+    height: 45px;
+    width: 30%;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    background-color: #FF5F1D;
+    cursor: pointer;
+    border: 1px solid #FF5F1D;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px red;
+}
+.services01-data a:hover{
+    background-color: #000066;
+    color: white;
+    border: 1px solid #000066;
+    transition: 0.4s ease-in-out;
+}
+                            
+                                      /* Our Services Start */
+
+                                      
+                                      /* More Services Start */
+.more-servies01{
+    width: 100%;
+    margin-top: 9%;
+    margin-bottom: 2em;
+}
+.more-servies01-grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    width: 95%;
+    margin-left: 2em;
+}
+.more-servies01-images img{
+    width: 100%;
+    height: 550px;
+}
+.more-servies01-images p img{
+    width: 100%;
+    height: 330px;
+    margin-top: -7px;
+}
+.more-servies01-data-heading{
+    color: #FF5F1D;
+    padding: 20px;
+    margin-left: 1.7em;
+    margin-top: 2em;
+    font-size: 3em;
+    font-weight: bold;
+}
+.more-services01-border{
+    width: 30%;
+    border-bottom: 4px solid red; 
+}
+.more-servies01-data-heading p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.company-logistics{
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #000066;
+    padding: 20px;
+    margin-left: 4em;
+}
+.company-logistics p{
+    font-size: .9rem;
+    color: black;
+    font-weight: normal;
+    margin-top: 10px;
+}
+                                  /* More Services END */
+
+                                  /* Our items Start */
+.our-itemss{
+    width: 100%;
+    background-color: #0e4ebc;
+}
+.our-itemss-grid{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 90%;
+    gap: 30px;
+    padding: 4em;
+   margin-left: 4em;
+    text-align: center;
+    color: white;
+}
+.our-itemss-heading{
+    transform: translate(-12.5%);
+}
+.our-itemss-heading span{
+    font-size: 1.3rem;
+    font-weight:  bold;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+h6{
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+h6 img{
+    width: 70%;
+     height: 80px;
+}
+h6:hover {
+	bottom: -36px;
+	opacity: 1;
+}
+/* Zoom In #1 */
+.our-itemss01 h6 img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.our-itemss01 h6:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+                                /* Our items END */
+
+
+                              /* Responsive Start */
+
+
+                              /* 968 Responsive Start */
+@media (max-width: 968px) {
+    .banner-text01 p{
+        font-size: 3rem;
+    }
+    .services01-heading-grid{
+        grid-template-columns: auto;  
+        width: 100%;
+        margin: 0px auto; 
+        margin-bottom: 4em;
+    }
+    .services01-heading{
+        font-size: 3rem;
+    }
+    .services01-data{
+        margin-top: 3em;
+    }
+    .quote-border{
+        width: 20%;
+    }
+    .services01-data{
+        border-right: none;
+    }
+    .more-servies01-grid{
+        grid-template-columns: auto;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .more-servies01-data-heading{
+        font-size: 3rem;
+    }
+    .our-itemss-grid{
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        margin: 0px auto;
+    }
+}
+
+                          /* 700 Responsive Start */
+ @media (max-width: 700px) {
+     .empty{
+         height: 220px;
+     }
+     .banner-text01 p{
+        font-size: 2.5rem;
+     }
+    .services01-heading{
+        font-size: 2.5rem;
+    }
+    .more-servies01-data-heading{
+        font-size: 2.5rem;
+    }
+ }
+                         /* 480 Responsive Start */
+@media (max-width: 480px) {
+    .banner-text01 p{
+        font-size: 2.2rem;
+     }
+    .quote-border{
+        width: 50%;
+    }
+    .services01-heading{
+        font-size: 2.2rem;
+    }
+    .more-servies01-data{
+        width: 100%;
+    }
+    .more-servies01-data-heading{
+        font-size: 2.2rem;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .company-logistics{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .our-itemss-grid{
+        grid-template-columns: 1fr;
+    }
+}
+                        /* 310 Responsive Start */
+@media (max-width: 310px) {
+    .services01-heading{
+     height: 220px;
+    }
+}
+
+                          /* 280 Responsive Start */
+@media (max-width: 280px) {
+.our-itemss-grid{
+    width: 100%;
+    grid-template-columns: auto;
+  }
+  .our-itemss01{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .our-itemss-heading{
+    width: 90%;
+    margin: auto;
+  }
+}
+                  
